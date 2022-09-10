@@ -1,0 +1,78 @@
+@font-face {
+    font-family: logoFont;
+    
+    src: url(src/Norse-Bold.otf);
+  }
+
+html{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 95%;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    height: 95vh;
+    flex : 4;
+    background-image: url("./src/picture.jpg");
+    background-size: 100% 100%;
+    
+}
+.logo{
+    position: absolute;
+    padding: 10px 0px;
+    top: 15vh;
+    width:calc(320vw/11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0,0, 0.2)
+
+    
+}
+
+.logolegend{
+    
+    font-size: 80px;
+    font-family: logoFont;
+    color:white;
+    opacity: 5;
+     
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    
+    color: antiquewhite;
+    font-size: small;
+}
+a{
+    color: antiquewhite;
+}
+
+.rightside{
+    margin: 0;
+    height: 100%;
+    flex : 7;
+    background-color: blueviolet;
+    
+}
